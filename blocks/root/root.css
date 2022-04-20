@@ -1,0 +1,25 @@
+.root {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2a2c2f;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif; 
+}
+
+@media screen and (max-width: 1120px) {
+  .root {
+    background-color: skyblue;
+  }
+ }
+ 
+ @media screen and (max-width: 960px) {
+  .root {
+    background-color: rgb(111, 170, 141);
+  }
+ }
+ 
+ @media screen and (max-width: 480px) {
+  .root {
+    background-color: rgb(201, 209, 158);
+  }
+ }

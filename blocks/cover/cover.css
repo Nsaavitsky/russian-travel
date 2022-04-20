@@ -1,0 +1,7 @@
+.cover {
+  background-image: url(../../images/__bg-image.png);
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  margin: auto;
+  position: relative;
+}
