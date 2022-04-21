@@ -3,9 +3,22 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
-  margin: 0 auto;
-  text-align: center;
-  align-content: center;
+  line-height: 1.04;
+  margin: 0;
 }
 
+@media screen and (max-width: 685px) {
+  .lead__title {
+    max-width: 80%;
+    font-size: 54px;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 540px) {
+  .lead__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+    transition: 0.5s;
+  }
+}

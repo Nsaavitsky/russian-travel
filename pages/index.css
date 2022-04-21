@@ -2,7 +2,7 @@
 @import url(../vendor/normalize.css);
 
 /* Подключение стиля fonts */
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts.css);
 
 /* Подключение стиля страницы root */
 @import url(../blocks/root/root.css);
@@ -22,7 +22,6 @@
 
 /* Подключение стиля блок header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__button-contain/header__button-contain.css);
 @import url(../blocks/header/__button-lang/header____button-lang.css);
 @import url(../blocks/header/__button-lang/_active/header__button-lang_active.css);

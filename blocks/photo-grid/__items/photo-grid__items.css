@@ -1,4 +1,5 @@
 .photo-grid__items {
+    max-width: 92.5%;
     margin: 0;
     padding: 0;
     display: grid;

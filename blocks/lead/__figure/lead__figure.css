@@ -1,3 +1,18 @@
 .lead__figure {
     margin: 0;
 }
+
+@media screen and (max-width: 1120px) {
+    .lead__figure {
+        max-width: 928px;
+        transition: 0.5s;
+        
+    }    
+}
+
+@media screen and (max-width: 1025px) {
+    .lead__figure {
+        transition: 0.5s;
+        
+    }    
+}
