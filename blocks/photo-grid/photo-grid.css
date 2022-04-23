@@ -3,3 +3,23 @@
     max-width: 92.5%;
     padding-top: 92px;
 }
+
+@media screen and (max-width:960px) {
+    .photo-grid {
+        padding-top: 88px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:585px) {
+    .photo-grid {
+        max-width: 425px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .photo-grid {
+        padding-top: 64px;
+        max-width: 288px;
+    }
+}

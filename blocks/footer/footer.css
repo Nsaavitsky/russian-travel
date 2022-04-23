@@ -6,3 +6,31 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1120px) {
+  .footer {
+    max-width: 928px;
+    transition: 0.5s;
+  } 
+}
+
+@media screen and (max-width: 960px) {
+  .footer {
+    max-width: 720px;
+    padding-top: 88px;
+  } 
+}
+
+@media screen and (max-width: 680px) {
+  .footer {
+    margin: 0;
+    max-width: 186px;
+    padding-top: 64px;
+    padding-left: 16px;
+    flex-direction: column;
+  } 
+}
+
+
+
+

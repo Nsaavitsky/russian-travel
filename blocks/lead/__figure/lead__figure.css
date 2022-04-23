@@ -9,10 +9,3 @@
         
     }    
 }
-
-@media screen and (max-width: 1025px) {
-    .lead__figure {
-        transition: 0.5s;
-        
-    }    
-}
