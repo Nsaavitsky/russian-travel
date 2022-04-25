@@ -23,12 +23,14 @@
 }
 
 @media screen and (max-width: 585px) {
-    .place__title {
-        align-self: flex-start;
-    }
+  .place__title {
+    max-width: 352px;
+    align-self: flex-start;
+    
   }
+}
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 340px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;

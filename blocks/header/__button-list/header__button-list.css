@@ -1,0 +1,14 @@
+.header__button-list {
+    margin-right: 18px;
+    margin-bottom: 6px;
+}
+
+.header__button-list:last-of-type {
+    margin-right: 0;
+}
+
+@media  screen and (max-width: 1120px) {
+    .header__button-list {
+        margin-bottom: 8px;
+    }
+}

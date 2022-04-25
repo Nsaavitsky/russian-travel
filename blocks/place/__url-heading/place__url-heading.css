@@ -14,9 +14,20 @@
     max-width: 352px;
   }
 }
+@media screen and (max-width: 585px) {
+  .place__url-heading {
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .place__url-heading {
     max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .place__url-heading {
+    text-align: start;
   }
 }
